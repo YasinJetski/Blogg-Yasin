@@ -1,0 +1,15 @@
+[{
+        "id": 1,
+        "blogText": "Updated blog text for the first entry.",
+        "author": "Jane Smith",
+        "title": "This is test blogg",
+        "category": "News"
+    },
+    {
+        "id": 2,
+        "blogText": "Updated blog text for the second entry.",
+        "author": "Emily Johnson",
+        "title": "Food blogg",
+        "category": "Food"
+    }
+]

@@ -1,0 +1,46 @@
+.form-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+.form-input label {
+    margin-bottom: 5px;
+}
+
+.form-input input,
+.form-input textarea {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-input textarea {
+    min-height: 150px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #47c547;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bloggTextInput {
+    width: 600px;
+}

@@ -1,0 +1,85 @@
+.heroSection {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6c3c3;
+}
+
+.heroContent {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.blogContainer {
+    flex: 0 0 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blogPost {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.blogPost h3 {
+    margin-bottom: 5px;
+}
+
+.blogPost p {
+    margin: 0;
+    color: #666;
+}
+
+.randomTextContainer {
+    width: 200px;
+    height: 450px;
+    position: fixed;
+    right: calc(20px + 220px);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.randomTextContainer p {
+    margin: 0;
+}
+
+.filterSection {
+    margin-bottom: 20px;
+}
+
+.filterButton {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+    background-color: #ddd;
+}
+
+.filterButton.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.filterButton.active:hover {
+    background-color: #0056b3;
+}
+
+.removeButton {
+    display: inline-block;
+}

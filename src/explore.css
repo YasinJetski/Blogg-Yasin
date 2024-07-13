@@ -1,0 +1,93 @@
+.heroContent {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.blogContainer {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blogPost {
+    background-color: #947272;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 800px;
+}
+
+.blogPost h3 {
+    margin-bottom: 5px;
+}
+
+.blogPost p {
+    margin: 0;
+    color: #bd8989;
+}
+
+.blogContent h2 {
+    font-size: medium;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.commentSection {
+    border-top: solid;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.commentSection h4 {
+    margin-bottom: 5px;
+}
+
+.commentWrapper {
+    border: 2px solid #777373;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Styles for filter buttons */
+
+.filterSection {
+    margin-bottom: 20px;
+}
+
+.filterButton {
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filterButton:hover {
+    background-color: #ddd;
+}
+
+.filterButton.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.filterButton.active:hover {
+    background-color: #0056b3;
+}
+
+.removeButton {
+    display: inline-block;
+}
